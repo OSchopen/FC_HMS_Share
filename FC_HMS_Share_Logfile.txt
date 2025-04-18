@@ -1,0 +1,60 @@
+======================================================================================FC_HMS_Shae Log file======================================================================================
+
+			==== .txt files ====
+
+
+==== 2025_04_18 - Add: FC_HMS_Share_Logfile.txt ====
+FC_HMS_share logfile contains all program changes including description
+
+
+
+==== 2025_04_18 - Add: Requirements.txt ====
+Information about program und subpackage versions installed
+
+=======================================================================================
+			
+			==== initial .py files ====
+
+
+
+==== 2025_04_18 - Add: HMS_Data generator_6.0_classification_V4.py ====
+Load data base (old structure, csv-format, real and imag part, "Nyquist_Data_Real_part.csv")
+Whole operation area selected according to input data
+Choose number of Variation
+Choose threshhold
+Generate augmented data points (old structure, real part, whole operation area, folder: HMS_Classification)
+Save augmented data point variation in one file
+Output based on multiple data points
+
+
+
+==== 2025_04_18 - Add: NN_Clas_Classifier_2.0.py ====
+Load data base for classification (old structure, csv-format, real, "Nyquist_Data_classification.csv") including failure classes
+Select whole operation area natively
+Normalise data
+Split in train and test data
+Train classification NN with multiple Inputs (RH, LBD, T, F, Re; to predict: class)
+Sheduled learning rate added
+Plot loss and accuracy for training and validation data
+Save training model (mein_modell_CL_NN_TBD.h5)
+Code applies classification NN with multiple input parameters (RH, LBD, T, F, Re) to estimate the failure class (state of health)
+
+
+=======================================================================================
+			
+
+			==== regular update history ====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
