@@ -28,7 +28,7 @@ Output based on multiple data points
 
 
 
-==== 2025_04_18 - Add: NN_Clas_Classifier_2.0.py ====
+==== 2025_04_18 - Add: NN_Clas_Training_2.0.py ====
 Load data base for classification (old structure, csv-format, real, "Nyquist_Data_classification.csv") including failure classes
 Select whole operation area natively
 Normalise data
@@ -46,7 +46,8 @@ Code applies classification NN with multiple input parameters (RH, LBD, T, F, Re
 			==== regular update history ====
 
 
-
+==== 2025_04_18 - Update: FC_HMS_Share_Logfile.txt ====
+Logfile correction
 
 
 
