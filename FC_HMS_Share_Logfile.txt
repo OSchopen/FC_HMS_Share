@@ -52,6 +52,16 @@ Logfile correction
 
 
 
+==== 2025_04_22 - Add: Train_Imag_for_Delam_Rev02.ipynb ====
+Initiales Programm Hyperparameterstudie
+
+
+
+==== 2025_04_22 - Update: FC_HMS_Share_Logfile.txt ====
+Logfile correction
+
+
+
 
 
 
